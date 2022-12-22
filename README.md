@@ -15,8 +15,7 @@ the third is 'static_conversion', through which the shared memory is accessed an
 Then we enter an endless while loop in which, if the "P" button is pressed, a screenshot of the bitmap will be taken, if one of the four arrows in the keyboard is used, then via "move_circle" and "draw_circle" the drawing on the first interface will be moved and drawn. Finally, the three functions described above will be used in the same order, the only difference being that they will be passed to the "bmp_circle" function the co-ordinates of the design on the interface.
 The closure is handled with a sigaction, via the management of the SIGTERM and SIGINT signals.
 This process handles the closing of all resources.
-
-N.B. Thecoordinates are multiplied by 20 to allow their use in the bitmap.
+N.B. The coordinates are multiplied by 20 to allow their use in the bitmap.
 
 ### PROCESS B
 This process is very similar to process A in some respects, but here 'ftruncate' is not used and the semaphore is simply opened and not initialised, because it is all done by process A.
