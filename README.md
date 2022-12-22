@@ -1,7 +1,7 @@
 # ARP--Second-Assignment
 
-## Install
-###INSTALL LIBBITMAP
+## Installing
+### Install Libbitmap
 
 download from https://github.com/draekko/libbitmap
 
@@ -11,12 +11,12 @@ type make
 
 run make install
 
-###INSTALL NCURSES
+### Install ncurses
 
 execute sudo apt-get install libncurses-dev
 
 execute install.src
 
-##Run
+## Run
 
 execute run.src
