@@ -53,3 +53,4 @@ execute `run.src`
 
 There are two interfaces. In the first, a small drawing appears which can be moved using the arrows on the keyboard. In addition, clicking on the box where there is a 'P' will provide a screenshot of the bitmap.
 In the second interface, zeros will appear which will trace the movements of the drawing in the first interface, and by clicking the "s" key on the keyboard it will be possible to obtain a screenshot of the bitmap of process B.
+N.B. The process A works with the window 90x30, while the process B works with the window 80x30
