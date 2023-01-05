@@ -33,21 +33,21 @@ N.B. The coordinates obtained are divided by 20 to allow them to be used in the 
 
 download from https://github.com/draekko/libbitmap
 
-navigate to the root directory of the downloaded repo and type ./configure
+navigate to the root directory of the downloaded repo and type `./configure`
 
-type make
+type `make`
 
-run make install
+run `make install`
 
 ### Install ncurses
 
-execute sudo apt-get install libncurses-dev
+execute `sudo apt-get install libncurses-dev`
 
-execute install.src
+execute `install.src`
 
 ## Run
 
-execute run.src
+execute `run.src`
 
 ## User guide
 
