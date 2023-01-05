@@ -41,13 +41,16 @@ run `make install`
 
 ### Install ncurses
 
-execute `sudo apt-get install libncurses-dev`
+`sudo apt-get install libncurses-dev`
 
-execute `install.src`
+`chmod +x install.src`
+
+`./install.src`
 
 ## Run
 
-execute `run.src`
+`chmod +x run.src`
+`./run.src`
 
 ## User guide
 
